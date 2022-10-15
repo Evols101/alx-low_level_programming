@@ -1,3 +1,0 @@
-#h
-
-gcc $CFILE -o cisfun
