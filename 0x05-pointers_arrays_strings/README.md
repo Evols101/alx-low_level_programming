@@ -1,0 +1,1 @@
+This project attempt to explore the concept of pointers, arrarys and strings
