@@ -1,0 +1,1 @@
+This chapter attempts to explore more concepts from pointers and arrays
