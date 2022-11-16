@@ -1,0 +1,1 @@
+This program attempts to explore the concepts of structures and data in C
