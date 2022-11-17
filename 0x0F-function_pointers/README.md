@@ -1,0 +1,1 @@
+This program attempts to explore the concept of functions and pointers
