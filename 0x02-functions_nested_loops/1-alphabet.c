@@ -1,95 +1,11 @@
 #include "main.h"
 /**
-* print_alphabet - a program that prints the alphabet, in lowercase.
-*
-* Return: (0) on success .else error
+* print_alphabet - prints the alphabet in lowercase, followed by a new line.
 */
 void print_alphabet(void)
 {
-char alphabet = 'a';
-while (alphabet <= 'z')
-{
-_putchar(alphabet);
-alphabet++
-}
+char letters;
+for (letters = 'a'; letters <= 'z'; letters++)
+_putchar(letters);
 _putchar('\n');
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
