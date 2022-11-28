@@ -1,0 +1,1 @@
+This project attempts to explore the concept of memory allocation in a low leve programming language
