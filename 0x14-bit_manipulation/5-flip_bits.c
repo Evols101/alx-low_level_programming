@@ -1,24 +1,17 @@
 #include "main.h"
+#include "stdlib.h"
+
 /**
- * flip_bits - flip to get from one number to another.
- * @n: the first number
- * @m: the second number
- * Return: the number of bits you would need to flip
+ * get_bit - returns the value of a bit at an index
+ * @n: number
+ * @index: index of the bit
+ *
+ * Return: value of the bit
  */
-unsigned int flip_bits(unsigned long int n, unsigned long int m)
+int get_bit(unsigned long int n, unsigned int index)
 {
-	unsigned long int differnce, result;
-	unsigned int j, i;
+	if (index > 63)
+		return (-1);
 
-	j = 0;
-	result = 1;
-	differnce = n ^ m;
-	for (i = 0; i < (sizeof(unsigned long int) * 8); i++)
-	{
-		if (result == (differnce & result))
-			j++;
-		result <<= 1;
-	}
-
-	return (j);
+	return ((n >> index) & 1);
 }
