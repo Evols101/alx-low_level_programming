@@ -1,1 +1,1 @@
-Readme file for file.o
+This project attempts to explore the concept of files i/o in c programming language
